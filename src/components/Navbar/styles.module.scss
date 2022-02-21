@@ -1,0 +1,18 @@
+.nav {
+  background-color: #ddd;
+  position: fix;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: #959da533 0px 8px 24px;
+
+  &__logo {
+    h1 {
+      font-size: 1.2rem;
+      color: #40A9FF
+    }
+  }
+}

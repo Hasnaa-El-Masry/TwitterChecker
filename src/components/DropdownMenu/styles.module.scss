@@ -1,0 +1,17 @@
+@import "../../assets/scss//abstracts/variables";
+
+
+.actions {
+    button {
+        background-color: transparent;
+        color: #888;
+        padding:0 1rem ;
+        font-weight: 600 ;
+        font-size: .8rem;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
